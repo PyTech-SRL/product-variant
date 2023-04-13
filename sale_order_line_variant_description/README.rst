@@ -14,19 +14,35 @@ Sale order line variant description
     :target: http://www.gnu.org/licenses/agpl-3.0-standalone.html
     :alt: License: AGPL-3
 .. |badge3| image:: https://img.shields.io/badge/github-OCA%2Fproduct--variant-lightgray.png?logo=github
+<<<<<<< HEAD:sale_order_line_variant_description/README.rst
     :target: https://github.com/OCA/product-variant/tree/16.0/sale_order_line_variant_description
     :alt: OCA/product-variant
 .. |badge4| image:: https://img.shields.io/badge/weblate-Translate%20me-F47D42.png
     :target: https://translation.odoo-community.org/projects/product-variant-15-0/product-variant-15-0-sale_order_line_variant_description
+=======
+    :target: https://github.com/OCA/product-variant/tree/16.0/product_variant_sale_price
+    :alt: OCA/product-variant
+.. |badge4| image:: https://img.shields.io/badge/weblate-Translate%20me-F47D42.png
+    :target: https://translation.odoo-community.org/projects/product-variant-16-0/product-variant-16-0-product_variant_sale_price
+>>>>>>> 888a1ec ([MIG] product_variant_sale_price: Migration to 16.0):product_variant_sale_price/README.rst
     :alt: Translate me on Weblate
-.. |badge5| image:: https://img.shields.io/badge/runbot-Try%20me-875A7B.png
-    :target: https://runbot.odoo-community.org/runbot/137/15.0
-    :alt: Try me on Runbot
+.. |badge5| image:: https://img.shields.io/badge/runboat-Try%20me-875A7B.png
+    :target: https://runboat.odoo-community.org/webui/builds.html?repo=OCA/product-variant&target_branch=16.0
+    :alt: Try me on Runboat
 
 |badge1| |badge2| |badge3| |badge4| |badge5| 
 
+<<<<<<< HEAD:sale_order_line_variant_description/README.rst
 This module allows to specify different sale description values for each product
 variant and use them on the sale order lines as their names.
+=======
+This module allows to handle sale price at product variant level
+(product.product) instead of product level (product.template), which is the
+default.
+
+It replaces the extra price configuration with a fix price that can be modified on each variant independently, which
+allows setting absolute prices instead of relative ones.
+>>>>>>> 888a1ec ([MIG] product_variant_sale_price: Migration to 16.0):product_variant_sale_price/README.rst
 
 **Table of contents**
 
@@ -39,7 +55,11 @@ Bug Tracker
 Bugs are tracked on `GitHub Issues <https://github.com/OCA/product-variant/issues>`_.
 In case of trouble, please check there if your issue has already been reported.
 If you spotted it first, help us smashing it by providing a detailed and welcomed
+<<<<<<< HEAD:sale_order_line_variant_description/README.rst
 `feedback <https://github.com/OCA/product-variant/issues/new?body=module:%20sale_order_line_variant_description%0Aversion:%2015.0%0A%0A**Steps%20to%20reproduce**%0A-%20...%0A%0A**Current%20behavior**%0A%0A**Expected%20behavior**>`_.
+=======
+`feedback <https://github.com/OCA/product-variant/issues/new?body=module:%20product_variant_sale_price%0Aversion:%2016.0%0A%0A**Steps%20to%20reproduce**%0A-%20...%0A%0A**Current%20behavior**%0A%0A**Expected%20behavior**>`_.
+>>>>>>> 888a1ec ([MIG] product_variant_sale_price: Migration to 16.0):product_variant_sale_price/README.rst
 
 Do not contact contributors directly about support or help with technical issues.
 
@@ -55,8 +75,15 @@ Contributors
 ~~~~~~~~~~~~
 
 * Alex Comba <alex.comba@agilebg.com>
+<<<<<<< HEAD:sale_order_line_variant_description/README.rst
 * Simone Vanin <simone.vanin@agilebg.com>
 * Dhara Solanki <dhara.solanki@initos.com>
+=======
+* Fabien Bourgeois <fabien@yaltik.com>
+* Vicent Cubells <info@obertix.net>
+* RabbitJon-S73 <roger@studio73.es>
+* Emanuel Cino <ecino@compassion.ch>
+>>>>>>> 888a1ec ([MIG] product_variant_sale_price: Migration to 16.0):product_variant_sale_price/README.rst
 
 Maintainers
 ~~~~~~~~~~~
@@ -71,6 +98,10 @@ OCA, or the Odoo Community Association, is a nonprofit organization whose
 mission is to support the collaborative development of Odoo features and
 promote its widespread use.
 
+<<<<<<< HEAD:sale_order_line_variant_description/README.rst
 This module is part of the `OCA/product-variant <https://github.com/OCA/product-variant/tree/16.0/sale_order_line_variant_description>`_ project on GitHub.
+=======
+This module is part of the `OCA/product-variant <https://github.com/OCA/product-variant/tree/16.0/product_variant_sale_price>`_ project on GitHub.
+>>>>>>> 888a1ec ([MIG] product_variant_sale_price: Migration to 16.0):product_variant_sale_price/README.rst
 
 You are welcome to contribute. To learn how please visit https://odoo-community.org/page/Contribute.
